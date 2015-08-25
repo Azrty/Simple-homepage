@@ -1,0 +1,74 @@
+/**
+ * Site présentation de Christophe Malo
+ * Technologie HTML 5 / CSS3
+ *
+ * @project     site_cmalo
+ * @namefile    site_cmalo_v001.css
+ * @fileversion 1.0.0
+ * @cssversion  css3
+ * @author      Christophe Malo
+ * @copyright   2015 by the author
+ * @license     no license - free to use - just link to my github - Thanks :)
+ * @mygithub    https://github.com/ChristopheMalo  
+*/
+
+/**
+ * -------------------------
+ * Fonts personnalisées
+ * -------------------------
+ */
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * -------------------------
+ * Styles génériques
+ * -------------------------
+ */
+body {
+    
+    margin: 0;
+    padding: 50px 0 0 0;
+    background: #d7dddb;
+}
+#bloc_presentation {
+    margin: auto;
+    width: 390px;
+}
+
+h1, p {
+    font-family: 'source_sans_proregular', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+/**
+ * -------------------------
+ * Styles génériques
+ * -------------------------
+ */
+#photo {
+    border: 20px solid #7ab7a3;
+}
+
+/**
+ * -------------------------
+ * Social Network
+ * -------------------------
+ */
+#social_network {
+    margin-top: 10px;
+    text-align: center;
+}
